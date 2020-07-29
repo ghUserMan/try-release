@@ -40,6 +40,15 @@
                     <target>${compiler.version}</target>
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <version>2.5.1</version>
+                <configuration>
+                    <tagNameFormat>v${project.version}</tagNameFormat>
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 
@@ -47,6 +56,7 @@
         <url>https://github.com/ghUserMan/try-release</url>
         <connection>scm:git:git://github.com/ghUserMan/try-release.git</connection>
         <developerConnection>scm:git:git://github.com/ghUserMan/try-release.git</developerConnection>
+        <tag>HEAD</tag>
     </scm>
 
     <distributionManagement>
