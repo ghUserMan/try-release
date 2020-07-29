@@ -46,7 +46,7 @@
     <scm>
         <url>https://github.com/ghUserMan/try-release</url>
         <connection>scm:git:git://github.com/ghUserMan/try-release.git</connection>
-        <developerConnection>scm:git@github.com:ghUserMan/try-release.git</developerConnection>
+        <developerConnection>scm:git:git://github.com/ghUserMan/try-release.git</developerConnection>
     </scm>
 
     <distributionManagement>
