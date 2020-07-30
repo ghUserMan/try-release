@@ -4,7 +4,7 @@
 
     <groupId>ru.whoy</groupId>
     <artifactId>try-release</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.1-SNAPSHOT</version>
 
     <properties>
         <compiler.version>1.8</compiler.version>
