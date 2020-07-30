@@ -4,7 +4,7 @@
 
     <groupId>ru.whoy</groupId>
     <artifactId>try-release</artifactId>
-    <version>1.0.3-SNAPSHOT</version>
+    <version>1.0.3</version>
 
     <properties>
         <compiler.version>1.8</compiler.version>
@@ -54,7 +54,7 @@
         <url>https://github.com/ghUserMan/try-release</url>
         <connection>scm:git:git://github.com/ghUserMan/try-release.git</connection>
         <developerConnection>scm:git:https://github.com/ghUserMan/try-release.git</developerConnection>
-      <tag>HEAD</tag>
+      <tag>1.0.3-SNAPSHOT</tag>
   </scm>
 
     <distributionManagement>
