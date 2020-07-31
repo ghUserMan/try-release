@@ -4,7 +4,7 @@
 
     <groupId>ru.whoy</groupId>
     <artifactId>try-release</artifactId>
-    <version>1.0.8-SNAPSHOT</version>
+    <version>1.0.9-SNAPSHOT</version>
 
     <properties>
         <compiler.version>1.8</compiler.version>
@@ -43,7 +43,7 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <version>3.0.0-M1</version>
                 <configuration>
-                    <tagNameFormat>${project.version}</tagNameFormat>
+                    <tagNameFormat>@{project.version}</tagNameFormat>
                     <autoVersionSubmodules>true</autoVersionSubmodules>
                 </configuration>
             </plugin>
